@@ -1,0 +1,115 @@
+/* banner style related */
+
+.banner-img {
+   background-image: url('resources/Banner\ Image.png');
+   background-repeat: no-repeat;
+}
+
+.banner {
+   border-radius: 16px;
+   width: 1320px;
+   height: 600px;
+   border-radius: 16px;
+   background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
+}
+
+.banner-greetings {
+   color: #FFF;
+   text-align: center;
+   font-family: Merriweather;
+   font-size: 32px;
+   font-style: normal;
+   font-weight: 400;
+   line-height: normal;
+   padding: 177px 0 0 0;
+}
+
+.banner-title {
+   width: 632px;
+   color: #FFF;
+   text-align: center;
+   font-family: Merriweather;
+   font-size: 72px;
+   font-weight: 900;
+   margin: auto;
+}
+
+/* 65% off secction */
+
+.discount {
+   color: #F00;
+   text-align: center;
+   font-family: Inter;
+   font-size: 88px;
+   font-style: normal;
+   font-weight: 700;
+   line-height: normal;
+   margin-top: 120px;
+}
+
+.holiday-deals {
+   color: #F00;
+   text-align: center;
+   font-family: Inter;
+   font-size: 24px;
+   font-style: normal;
+   font-weight: 500;
+   line-height: normal;
+}
+
+.all-categories {
+   color: #070211;
+   text-align: center;
+   font-family: Inter;
+   font-size: 48px;
+   font-style: normal;
+   font-weight: 700;
+   line-height: normal;
+}
+
+.new-year-pic {
+   width: 802.9px;
+   height: 500px;
+   margin: auto;
+   padding: 48px;
+}
+
+/* midnight party */
+
+.midnight-party-img {
+   background-image: url('resources/Vectorrr.png');
+   background-repeat: no-repeat;
+   
+}
+
+.midnitght-party {
+   width: 1320px;
+   height: 600px;
+   margin: auto;
+   fill: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
+}
+
+.midnight-party-title {
+   color: #FFF;
+   font-family: Merriweather;
+   font-size: 64px;
+   font-style: normal;
+   font-weight: 900;
+   width: 642px;
+   line-height: 88px;
+   /* 137.5% */
+   letter-spacing: 7.04px;
+   padding: 126px 0px 0px 126px;
+}
+
+.midnight-party-content {
+   color: rgba(255, 255, 255, 0.80);
+   font-family: Inter;
+   font-size: 18px;
+   font-style: normal;
+   font-weight: 400;
+   width: 697px;
+   padding: 24px;
+   line-height: 30px;
+   /* 166.667% */
+}
