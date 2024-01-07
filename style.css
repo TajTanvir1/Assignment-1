@@ -256,7 +256,7 @@
 
 /* Holidays Sale style */
 
-.functional-content{
+.functional-content {
    text-align: center;
 }
 
@@ -297,30 +297,33 @@
    font-weight: 500;
    margin: auto;
    margin-top: 20px;
+   margin-bottom: 150px;
 }
 
+.discount-images {
+   width: 1320px;
+   height: 663px;
+   position: left;
+   display: flex;
+   background-image: url('resources/Rectangle\ 2.png');
+   background-repeat: no-repeat;
+   background-position: bottom;
+}
 
-.discount-gift-box{
+.gift-box-img{
+   width: 797px;
+   height: 663px;
+   position: left;
+}
+
+.image1{
    display: flex;
    width: 1320px;
-   height: 600px;
+   height: 433px;
+   background-image: url('resources/Rectangle\ 1.png');
+   background-repeat: no-repeat;
+   background-position-x:right;
+   margin-right: 0;
 }
 
-.gift-box{
-   margin-left: 270px;
-}
 
-/* .discount-gift-box{
-   width: 1320px;
-   height: 600px;
-}
-
-.rectangle{
-   background-image: url('resources/Rectangle\ 2.png');
-}
-
-.gift-box{
-   margin-top: 64px;
-   align-content: left;
-   
-} */
