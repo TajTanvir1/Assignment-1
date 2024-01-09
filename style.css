@@ -1,329 +1,387 @@
-/* banner style related */
-
-.banner-img {
-   background-image: url('resources/Banner\ Image.png');
-   background-repeat: no-repeat;
+* {
+    margin: 0;
+    padding: 0;
 }
 
-.banner {
-   border-radius: 16px;
-   width: 1320px;
-   height: 600px;
-   border-radius: 16px;
-   background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
+/* banner styles */
+
+body {
+    width: device-width;
 }
+
+.container-banner {
+    width: 82.5%;
+    max-width: 1320px;
+    margin: 0 auto;
+}
+
+
+.banner-image {
+    background-image: url('resources/Banner\ Image.png');
+    background-size: 100%;
+    width: 100%;
+    height: 600px;
+    max-width: 1320px;
+    border-radius: 16px;
+    margin-top: 50px;
+    background-repeat: no-repeat;
+}
+
+.banner-gredient {
+    background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
+    border-radius: 16px;
+}
+
 
 .banner-greetings {
-   color: #FFF;
-   text-align: center;
-   font-family: Merriweather;
-   font-size: 32px;
-   font-style: normal;
-   font-weight: 400;
-   line-height: normal;
-   padding: 177px 0 0 0;
+    color: #FFF;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 32px;
+    font-weight: 400;
+    margin-bottom: 0px;
+    justify-content: center;
+    padding-top: 100px;
 }
 
 .banner-title {
-   width: 632px;
-   color: #FFF;
-   text-align: center;
-   font-family: Merriweather;
-   font-size: 72px;
-   font-weight: 900;
-   margin: auto;
+    width: 632px;
+    color: #FFF;
+    text-align: center;
+    margin: auto;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-weight: 900;
+    line-height: 95px;
 }
 
-/* 65% off secction */
+/* Holiday 65% off styles */
 
-.discount {
-   color: #F00;
-   text-align: center;
-   font-family: Inter;
-   font-size: 88px;
-   font-style: normal;
-   font-weight: 700;
-   line-height: normal;
-   margin-top: 120px;
-}
-
-.holiday-deals {
-   color: #F00;
-   text-align: center;
-   font-family: Inter;
-   font-size: 24px;
-   font-style: normal;
-   font-weight: 500;
-   line-height: normal;
-}
-
-.all-categories {
-   color: #070211;
-   text-align: center;
-   font-family: Inter;
-   font-size: 48px;
-   font-style: normal;
-   font-weight: 700;
-   line-height: normal;
-}
-
-.new-year-pic {
-   width: 802.9px;
-   height: 500px;
-   margin: auto;
-   padding: 48px;
-}
-
-/* midnight party */
-
-.midnight-party-img {
-   background-image: url('resources/Vectorrr.png');
-   background-repeat: no-repeat;
+.all-width {
+    width: 82.5%;
+    max-width: 1320px;
+    margin: auto;
 
 }
 
-.midnitght-party {
-   width: 1320px;
-   height: 600px;
-   margin: auto;
-   fill: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
+.container-holiday {
+    text-align: center;
+    margin-top: 100px;
+    align-content: center;
 }
 
-.midnight-party-title {
-   color: #FFF;
-   font-family: Merriweather;
-   font-size: 64px;
-   font-style: normal;
-   font-weight: 900;
-   width: 642px;
-   line-height: 88px;
-   letter-spacing: 7.04px;
-   padding: 126px 0px 0px 0px;
-}
-
-.midnight-party-content {
-   color: rgba(255, 255, 255, 0.80);
-   font-family: Inter;
-   font-size: 18px;
-   font-style: normal;
-   font-weight: 400;
-   width: 697px;
-   line-height: 30px;
-   margin-bottom: 48px;
-}
-
-.midnight-party-join {
-   color: #FFF;
-   font-family: Inter;
-   font-size: 20px;
-   font-style: normal;
-   font-weight: 700;
-   line-height: normal;
-   text-transform: uppercase;
-   margin-left: 32px;
-}
-
-/* place info style */
-
-.place-info {
-   width: 1320px;
-   height: 482px;
-   background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
-   margin-top: 120px;
-   text-align: center;
-   padding: 100px;
-}
-
-.place-details {
-   color: #070211;
-   font-family: Inter;
-   font-size: 32px;
-   font-style: normal;
-   font-weight: 600;
-   line-height: 56px;
-   text-transform: capitalize;
-   margin: 0;
-}
-
-.place-info-color {
-   color: #F00;
-   text-align: center;
-   font-family: Inter;
-   font-size: 32px;
-   font-style: normal;
-   font-weight: 600;
-   line-height: 56px;
-   text-transform: capitalize;
-}
-
-.btn-join {
-   border-radius: 8px;
-   background: #F00;
-   display: inline-flex;
-   padding: 16px 32px;
-   justify-content: center;
-   align-items: center;
-   gap: 10px;
-   border: none;
-   margin: 48px;
-}
-
-.join-text {
-   color: #FFF;
-   text-align: center;
-   font-family: Inter;
-   font-size: 20px;
-   font-style: normal;
-   font-weight: 700;
-   line-height: normal;
-   text-transform: uppercase;
-}
-
-/* coming soon style */
-
-.coming-soon {
-   display: flex;
-   margin-left: 140px;
-   margin-top: 120px;
-   background: #FFF;
-   justify-content: space-between;
-}
-
-.best-offer {
-   color: #F00;
-   font-family: Inter;
-   font-size: 24px;
-   font-style: normal;
-   font-weight: 500;
-   line-height: normal;
-}
-
-.coming-soon-text {
-   color: #070211;
-   font-family: Merriweather;
-   font-size: 48px;
-   font-style: normal;
-   font-weight: 900;
-   line-height: normal;
-   text-transform: capitalize;
-}
-
-.coming-soon-content {
-   color: rgba(7, 2, 17, 0.60);
-   font-family: Inter;
-   font-size: 20px;
-   font-weight: 400;
-   line-height: 32px;
-   width: 393px;
-   margin-right: 70px;
-}
-
-.ellipse-img {
-   width: 364.844px;
-   height: 364.844px;
-   padding: 30px;
-   border: solid #F00 10px;
-   border-radius: 50%;
-   align-content: center;
-}
-
-.year {
-   color: #F00;
-   font-family: Inter;
-   font-size: 48px;
-   font-weight: 700;
-   line-height: normal;
-   margin-left: 118px;
-}
-
-.year-content {
-   width: 276px;
-   color: rgba(7, 2, 17, 0.60);
-   font-family: Inter;
-   font-size: 20px;
-   font-style: normal;
-   font-weight: 400;
-   line-height: 32px;
-   margin-left: 118px;
-   margin-right: 140px;
-}
-
-.year-img {
-   width: 140px;
-   height: 140px;
-   margin-left: 118px;
-}
-
-/* Holidays Sale style */
-
-.functional-content {
-   text-align: center;
-}
-
-.functional {
-   color: #070211;
-   font-family: Inter;
-   font-size: 24px;
-   font-style: normal;
-   font-weight: 500;
-   line-height: normal;
-   margin-top: 120px;
-}
-
-.holidays {
-   color: #070211;
-   font-family: Merriweather;
-   font-size: 72px;
-   font-style: normal;
-   font-weight: 900;
-   line-height: normal;
-   margin: 0;
-}
-
-.holiday-color {
-   color: #F00;
-   text-align: center;
-   font-family: Merriweather;
-   font-size: 72px;
-   font-weight: 900;
-   line-height: normal;
+.holiday-off {
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 88px;
+    font-weight: 700;
 }
 
 .holiday-content {
-   width: 1068px;
-   color: rgba(7, 2, 17, 0.60);
-   font-family: Inter;
-   font-size: 20px;
-   font-weight: 500;
-   margin: auto;
-   margin-top: 20px;
-   margin-bottom: 150px;
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    margin: 40px;
 }
 
-.discount-images {
-   width: 1320px;
-   height: 663px;
-   position: left;
-   display: flex;
-   background-image: url('resources/Rectangle\ 2.png');
-   background-repeat: no-repeat;
-   background-position: bottom;
+.categories-text {
+    color: #070211;
+    text-align: center;
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+    margin-top: 15px;
 }
 
-.gift-box-img{
-   width: 797px;
-   height: 663px;
-   position: left;
+.holiday-image {
+    width: 100%;
+    max-width: 800px;
+    margin-top: 40px;
 }
 
-.image1{
-   display: flex;
-   width: 1320px;
-   height: 433px;
-   background-image: url('resources/Rectangle\ 1.png');
-   background-repeat: no-repeat;
-   background-position-x:right;
-   margin-right: 0;
+/* Midnight Party styles */
+
+.midnight-container {
+    max-width: 1320px;
+    margin-top: 100px;
 }
 
+.midnight-image {
+    background-image: url('resources/Vectorrr.png');
+    background-size: 100%;
+    width: 100%;
+    height: 600px;
+    max-width: 1320px;
+    margin-top: 50px;
+    background-repeat: no-repeat;
+}
 
+.midnight-gredient {
+    background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
+    background-size: 100%;
+    border-radius: 16px;
+    width: 100%;
+    height: 526px;
+    display: flex;
+}
+
+.midnight-content {
+    margin-left: 100px;
+}
+
+.midnight-title {
+    color: #FFF;
+    font-family: Merriweather;
+    font-size: 54px;
+    font-weight: 900;
+    letter-spacing: 7.04px;
+    width: 620px;
+    margin-top: 100px;
+}
+
+.midnight-text {
+    color: rgba(255, 255, 255, 0.80);
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    width: 650px;
+    margin-top: 20px;
+}
+
+.join-now {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 36px;
+    margin-left: 24px;
+}
+
+.year-image {
+    width: 70%;
+    max-width: 300px;
+    margin-top: 60px;
+}
+
+.year-image>img {
+    width: 100%;
+    max-width: 320px;
+    height: 432px;
+}
+
+.place-info-container {
+    max-width: 1320px;
+    margin-top: 100px;
+}
+
+.place-info-gredient {
+    background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+    width: 1170px;
+    height: 482px;
+    border-radius: 16px;
+    text-align: center;
+}
+
+.place {
+    padding-top: 92px;
+    color: #070211;
+    font-family: Inter;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 50px;
+}
+
+.date,
+.time {
+    color: #070211;
+    font-family: Inter;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 56px;
+}
+
+.place-info-color {
+    color: #F00;
+}
+
+.join-now-btn {
+    color: #FFF;
+    background: #F00;
+    border: none;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 16px 32px;
+    border-radius: 8px;
+    margin-top: 40px;
+}
+
+/* New year Coming Soon section styles */
+
+.coming-soon-container {
+    display: flex;
+    width: 1170px;
+    height: 463px;
+}
+
+.coming-soon-content {
+    margin-top: 100px;
+}
+
+.best-offer {
+    color: #F00;
+    font-family: Inter;
+    font-size: 22px;
+    font-weight: 500;
+    margin-bottom: 12px;
+}
+
+.coming-soon-text {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+
+.coming-soon-details {
+    width: 360px;
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+.coming-soon-image {
+    margin-left: 30px;
+    padding: 30px;
+    border-radius: 463px;
+    border: 15px solid #F00;
+    fill: lightgray -91.279px 0px / 150.038% 100%;
+}
+
+.year-n-details {
+    margin-left: 110px;
+    margin-top: 100px;
+}
+
+.year-24 {
+    color: #F00;
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 14px;
+}
+
+.year-details {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32px;
+    width: 260px;
+    margin-bottom: 48px;
+}
+
+/* Funtionar section styles */
+
+.functional-container {
+    margin-top: 120px;
+}
+
+.functional-text {
+    color: #070211;
+    font-family: Inter;
+    font-size: 22px;
+    font-weight: 500;
+    margin-bottom: 14px;
+    margin: auto;
+    text-align: center;
+}
+
+.holiday-sale-text{
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 70px;
+    font-weight: 900;
+    padding-bottom: 26px;
+    margin: auto;
+    text-align: center;
+}
+
+.holiday-text-color{
+    color: #F00;
+}
+
+.holiday-sale-details{
+    color: rgba(7, 2, 17, 0.60);
+    width: 1000px;
+    text-align: center;
+    font-family: Inter;
+    font-size: 22px;
+    font-weight: 500;
+    margin: auto;
+}
+
+/* Gift box section styles */
+
+.gift-box-container{
+    margin-top: 64px;
+    width: 100%;
+    max-width: 1320px;
+    height: 400x;
+    display: flex;
+    
+    
+}
+
+.rectangle{
+    background-image: url('resources/Rectangle\ 2.png');
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: 100%;
+    max-width: 1320px;
+    background-position-y: bottom;
+
+}
+
+.gift-box-image{
+    width: 100%;
+    display: flex;
+}
+
+.girl-with-bag{
+    background-image: url('resources/Girl\ with\ bag.png');
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: 100%;
+    max-width: 429px;
+    height: 433px;
+    position: relative;
+    top: 35px;
+    left: 128px;
+    
+}
+
+.gift-box{
+    width: 600px;
+}
+
+.girl-with-bag>img {
+    width: ;
+    position: relative;
+    right: 100px;
+    margin-left: 0px;
+    top: 30px;
+}
