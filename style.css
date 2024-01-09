@@ -310,7 +310,7 @@ body {
     text-align: center;
 }
 
-.holiday-sale-text{
+.holiday-sale-text {
     color: #070211;
     font-family: Merriweather;
     font-size: 70px;
@@ -320,11 +320,11 @@ body {
     text-align: center;
 }
 
-.holiday-text-color{
+.holiday-text-color {
     color: #F00;
 }
 
-.holiday-sale-details{
+.holiday-sale-details {
     color: rgba(7, 2, 17, 0.60);
     width: 1000px;
     text-align: center;
@@ -336,17 +336,17 @@ body {
 
 /* Gift box section styles */
 
-.gift-box-container{
+.gift-box-container {
     margin-top: 64px;
     width: 100%;
     max-width: 1320px;
     height: 400x;
     display: flex;
-    
-    
+
+
 }
 
-.rectangle{
+.rectangle {
     background-image: url('resources/Rectangle\ 2.png');
     background-repeat: no-repeat;
     width: 100%;
@@ -356,12 +356,12 @@ body {
 
 }
 
-.gift-box-image{
+.gift-box-image {
     width: 100%;
     display: flex;
 }
 
-.girl-with-bag{
+.girl-with-bag {
     background-image: url('resources/Girl\ with\ bag.png');
     background-repeat: no-repeat;
     width: 100%;
@@ -371,10 +371,10 @@ body {
     position: relative;
     top: 35px;
     left: 128px;
-    
+
 }
 
-.gift-box{
+.gift-box {
     width: 600px;
 }
 
@@ -388,7 +388,7 @@ body {
 
 /* Best Gift & Portfolio sector styles */
 
-.portfolio-container{
+.portfolio-container {
     width: 82.5%;
     max-width: 1320px;
 }
@@ -427,31 +427,31 @@ body {
 
 /* Portfolio images style */
 
-.images-line-1{
-display: flex;
-margin-top: 40px;
-margin-bottom: 20px;
+.images-line-1 {
+    display: flex;
+    margin-top: 40px;
+    margin-bottom: 20px;
 }
 
-.image-1{
+.image-1 {
     margin-right: 20px;
 
 }
 
-.image-2{
+.image-2 {
     margin-right: 20px;
 }
 
-.images-line-2{
+.images-line-2 {
     display: flex;
 }
 
-.image-4{
+.image-4 {
     margin-right: 20px;
 
 }
 
-.image-5{
+.image-5 {
     margin-right: 20px;
 }
 
@@ -466,18 +466,22 @@ margin-bottom: 20px;
     border: 5px solid skyblue;
     border-radius: 5%
 }
+
 .image-3 :hover {
     border: 5px solid skyblue;
     border-radius: 5%
 }
+
 .image-4 :hover {
     border: 5px solid skyblue;
     border-radius: 5%
 }
+
 .image-5 :hover {
     border: 5px solid skyblue;
     border-radius: 5%
 }
+
 .image-6 :hover {
     border: 5px solid skyblue;
     border-radius: 5%
@@ -485,6 +489,150 @@ margin-bottom: 20px;
 
 /* Subscribe Sector */
 
-.subscribe-container{
-    
+.subscribe-container {
+    width: 100%;
+    max-width: 1320px;
+    height: 600px;
+    border-radius: 16px;
+    background: rgba(255, 0, 0, 0.05);
+
+}
+
+.mail-image {
+    margin-top: 80px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.subscribe-text {
+    color: #070211;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.subscribe-content {
+    width: 896px;
+    color: rgba(7, 2, 17, 0.60);
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    margin: auto;
+    padding-bottom: 40px;
+    padding-top: 22px;
+}
+
+.sub-btn-container {
+    margin: auto;
+    position: relative;
+    left: 300px;
+}
+
+.subscribe-btn {
+    border: none;
+    padding: ;
+    display: flex;
+}
+
+.subs-text {
+    padding: 20px 200px 20px 50px;
+    background-color: #FFF;
+    border-radius: 50px 0px 0px 50px;
+}
+
+.subs-button {
+    padding: 20px 50px 20px 50px;
+    text-align: center;
+    border-radius: 0px 50px 50px 0px;
+    background: #F00;
+    color: #FFF;
+}
+
+/* footer styles */
+
+
+footer {
+    background-color: #070211;
+    width: 100%;
+    height: 600px;
+    align-items: center;
+}
+
+.contact-info-container {
+    width: 100%;
+    max-width: 1320px;
+}
+
+
+.contact-info {
+    display: flex;
+}
+
+.address {
+    width: 375px;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 40px;
+    margin-top: 120px;
+    margin-left: 120px;
+    margin-right: 550px;
+
+}
+
+.number-mail-container {
+    margin-top: 120px;
+    text-align: left;
+}
+
+.number {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 40px;
+}
+
+.mail {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 40px;
+}
+
+.social-media-container {
+    margin-top: 45px;
+    text-align: center;
+    margin-bottom: 45px;
+    justify-content: space-between;
+}
+
+/* ccopy right styles */
+
+.copyright-content {
+    display: flex;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-top: 50px;
+}
+
+.copyright-text {
+    margin-left: 140px;
+
+}
+
+.unsubscribe-text {
+    margin-left: 800px;
 }
